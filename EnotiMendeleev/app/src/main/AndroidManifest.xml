@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.enoti.enotimendeleev">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_enoti"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_enoti_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".LogoActivity">
+            <intent-filter>
+                <action android:name="com.enoti.enotimendeleev.LogoActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".QMode3Activity">
+            <intent-filter>
+                <action android:name="com.enoti.enotimendeleev.QMode3Activity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".QMode2Activity">
+            <intent-filter>
+                <action android:name="com.enoti.enotimendeleev.QMode2Activity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuizResultActivity">
+            <intent-filter>
+                <action android:name="com.enoti.enotimendeleev.QuizResultActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".QMode1Activity">
+            <intent-filter>
+                <action android:name="com.enoti.enotimendeleev.QMode1Activity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuizModeSelectionActivity">
+            <intent-filter>
+                <action android:name="com.enoti.enotimendeleev.QuizModeSelectionActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".GameModeSelectionActivity">
+            <intent-filter>
+                <action android:name="com.enoti.enotimendeleev.GameModeSelectionActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResultActivity">
+            <intent-filter>
+                <action android:name="com.enoti.enotimendeleev.ResultActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".GameActivity">
+            <intent-filter>
+                <action android:name="com.enoti.enotimendeleev.GameActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ModeSelectionActivity">
+            <intent-filter>
+                <action android:name="com.enoti.enotimendeleev.ModeSelectionActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

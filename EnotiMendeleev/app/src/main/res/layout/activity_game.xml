@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".GameActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/QuestConstraint"
+            android:background="#0000" android:visibility="visible">
+
+        <Button
+                android:text="@string/HintButText"
+                android:layout_width="50dp"
+                android:layout_height="50dp" android:id="@+id/HintBut"
+                android:background="@drawable/hintbut" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="16dp"
+                android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" app:layout_constraintHorizontal_bias="1.0"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        />
+        <TableLayout
+                android:layout_height="wrap_content"
+                android:background="@drawable/tables" android:layout_width="0dp" android:layout_marginBottom="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="5dp" android:layout_marginRight="5dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp" android:id="@+id/ButtonsTable" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="@+id/guideline3"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5">
+
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:background="#0000" android:orientation="horizontal">
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var1" android:layout_width="0dp"
+                        android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:textSize="18sp"
+                        android:gravity="center"/>
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var2" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var3" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var4" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var5" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var6" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:background="#0000">
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var7" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var8" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var9" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var10" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var11" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+                <Button
+                        android:text="Ti"
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent" android:id="@+id/Var12" android:layout_width="0dp"
+                        android:textSize="18sp" android:background="@drawable/buts"
+                        android:padding="10dp"
+                        android:layout_margin="3dp" android:layout_weight="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat" android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+        <android.support.constraint.Guideline
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/guideline3"
+                app:layout_constraintGuide_percent="0.7"/>
+        <android.support.constraint.Guideline
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/guideline"
+                app:layout_constraintGuide_percent="0.55"/>
+        <android.support.constraint.Guideline
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/guideline4"
+                app:layout_constraintGuide_percent="0.1"/>
+        <android.support.constraint.Guideline
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/guideline2"
+                app:layout_constraintGuide_percent="0.65"/>
+        <TextView
+                android:text="Корова"
+                android:layout_height="wrap_content"
+                android:id="@+id/T_Hint" android:background="#0000" android:layout_width="0dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat" app:fontFamily="sans-serif"
+                android:textSize="24sp" android:textStyle="bold" android:gravity="center" android:shadowRadius="10"
+                android:shadowColor="#000" app:layout_constraintBottom_toTopOf="@+id/guideline2"
+                app:layout_constraintHorizontal_bias="1.0" android:textColor="#0f0"
+                app:layout_constraintTop_toTopOf="@+id/guideline"/>
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="330dp" tools:srcCompat="@tools:sample/avatars"
+                android:id="@+id/I_Img"
+                android:background="#0000" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="@+id/guideline4" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline"/>
+        <android.support.constraint.Guideline
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/guideline5"
+                app:layout_constraintGuide_percent="0.9"/>
+        <TextView
+                android:layout_height="wrap_content"
+                android:id="@+id/T_Answ" android:background="#0000" android:layout_width="0dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat" app:fontFamily="sans-serif"
+                android:textSize="24sp" android:textStyle="bold" android:gravity="center" android:shadowRadius="10"
+                android:shadowColor="#000" app:layout_constraintBottom_toTopOf="@+id/guideline3"
+                app:layout_constraintHorizontal_bias="0.0" android:textColor="#0f0"
+                app:layout_constraintTop_toTopOf="@+id/guideline2"
+        />
+    </android.support.constraint.ConstraintLayout>
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/QuestResConstraint"
+            android:background="#0000"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+    >
+
+        <TextView
+                android:text="Нажмите на экран, чтобы продолжить"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" android:id="@+id/textView2"
+                android:background="#0000"
+                android:textAppearance="@style/TextAppearance.AppCompat" app:fontFamily="sans-serif"
+                android:textSize="24sp" android:textColor="#0f0" android:shadowRadius="10" android:shadowColor="#000"
+                android:textAlignment="center" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginRight="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/T_ResAnsw"/>
+        <ScrollView
+                android:layout_width="0dp"
+                android:layout_height="286dp"
+                android:background="#0000" android:layout_marginTop="60dp" app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="32dp" android:layout_marginRight="32dp" android:id="@+id/scrollView2"
+                app:layout_constraintHorizontal_bias="0.0">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:background="#0000" android:id="@+id/LinearElems">
+                <TextView
+                        android:text="C - Name - Название"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="0dp"
+                        tools:layout_editor_absoluteX="0dp" android:id="@+id/textView12"
+                        android:background="#0000"
+                        android:textSize="24sp" android:textColor="#aa0"/>
+                <TextView
+                        android:text="H - Name - Название"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="0dp"
+                        tools:layout_editor_absoluteX="0dp" android:id="@+id/textView11"
+                        android:background="#0000" android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:fontFamily="sans-serif" android:textSize="24sp" android:textColor="#aa0"/>
+                <TextView
+                        android:text="I - Name - Название"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="0dp"
+                        tools:layout_editor_absoluteX="0dp" android:id="@+id/textView10"
+                        android:background="#0000" android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:fontFamily="sans-serif" android:textSize="24sp" android:textColor="#aa0"/>
+                <TextView
+                        android:text="Na - Name - Название"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" tools:layout_editor_absoluteY="0dp"
+                        tools:layout_editor_absoluteX="0dp" android:id="@+id/textView7"
+                        android:background="#0000" android:textAppearance="@style/TextAppearance.AppCompat"
+                        app:fontFamily="sans-serif" android:textSize="24sp" android:textColor="#aa0"/>
+            </LinearLayout>
+        </ScrollView>
+        <TextView
+                android:text="China - Китай"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/T_ResAnsw"
+                android:background="#0000"
+                android:textAppearance="@style/TextAppearance.AppCompat" app:fontFamily="sans-serif"
+                android:textSize="36sp" android:textColor="#0f0" android:layout_marginTop="40dp"
+                app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:shadowRadius="10" android:shadowColor="#000"/>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
