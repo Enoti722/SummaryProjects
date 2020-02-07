@@ -1,0 +1,112 @@
+#gameField {
+	position: fixed;
+	width: 750px;
+	height: 950px;
+	padding: 0px;
+	background: Url('../src/gameFieldEmpty.png');
+	user-select: none;
+}
+
+#SelectCharText {
+	position: absolute;
+	top: 200px;
+	width: 750px;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	font-style: bold;
+}
+
+#CharName {
+	position: absolute;
+	top: 275px;
+	width: 750px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	font-style: bold;
+}
+
+#CharLvl {
+	position: absolute;
+	top: 300px;
+	width: 750px;
+	font-size: 19px;
+	text-align: center;
+	color: white;
+	font-style: bold;
+}
+
+#Coins {
+	position: absolute;
+	top: 245px;
+	width: 730px;
+	font-size: 23px;
+	text-align: right;
+	color: Yellow;
+	font-style: bold;
+}
+
+#leftBtn {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	left: 53px;
+	top: 450px;
+	background-color: yellow;
+}
+
+#CharImg {
+	position: fixed;
+	width: 190px;
+	height: 190px;
+	left: 283px;
+	top: 375px;
+}
+
+#rightBtn {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	left: 659px;
+	top: 450px;
+	background-color: yellow;
+}
+
+#CharInfo {
+	position: absolute;
+	top: 600px;
+	width: 750px;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	font-style: bold;
+}
+
+#UpgradePrice {
+	position: absolute;
+	top: 700px;
+	width: 750px;
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	font-style: bold;
+}
+
+#MenuBtn {
+	position: fixed;
+	width: 200px;
+	height: 50px;
+	left: 283px;
+	top: 825px;
+	background-color: yellow;
+}
+
+#UpgradeBtn {
+	position: fixed;
+	width: 200px;
+	height: 50px;
+	left: 283px;
+	top: 750px;
+	background-color: yellow;
+}

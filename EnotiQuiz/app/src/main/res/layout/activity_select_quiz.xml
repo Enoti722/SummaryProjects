@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rocketbackground"
+    tools:context="com.enoti.enotiquiz.SelectQuizActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/CosmosBut"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginBottom="401dp"
+        android:background="@drawable/buts"
+        android:paddingHorizontal="7dp"
+        android:text="Космос"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Question" />
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:layout_marginRight="8dp"
+        android:background="#00000000"
+        android:paddingHorizontal="7dp"
+        android:text="Выберите тему"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/CosmosBut"
+        app:layout_constraintEnd_toStartOf="@+id/CoinsCountText"
+        app:layout_constraintTop_toBottomOf="@+id/CoinImg" />
+
+    <ImageView
+        android:id="@+id/CoinImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="33dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="227dp"
+        android:layout_marginTop="34dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toTopOf="@+id/Question"
+        app:layout_constraintEnd_toStartOf="@+id/CoinsCountText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coin" />
+
+    <TextView
+        android:id="@+id/CoinsCountText"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="7dp"
+        android:background="#00000000"
+        android:paddingLeft="5dp"
+        android:text="0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/CoinImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/CoinImg"
+        app:layout_constraintTop_toTopOf="@+id/CoinImg" />
+
+</android.support.constraint.ConstraintLayout>
