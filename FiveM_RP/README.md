@@ -1,7 +1,7 @@
 **Описание**<br>
 Название: NewLine RP<br>
 Платформа: FiveM/GTA V<br>
-Статус: Почти завершён (~90%)
+Статус: Почти завершён (~90%)<br>
 Языки: Lua/JS/C#<br>
 Используемые фреймворки: vRP (Lua), Node.js, jQuery, Vue.js, Discord.js, other<br>
 <br>
